@@ -307,19 +307,23 @@ img {
 }
 
 /* ===== WORK =====*/
-.work__container {
-  row-gap: 2rem;
-}
-.work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.work__img img {
-  transition: 1s;
-}
-.work__img img:hover {
-  transform: scale(1.1);
+.work{
+  &__container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Use grid para criar um layout flexível */
+      gap: 2rem; /* Adicione espaçamento entre os itens */
+  }
+  &__img{
+      border-radius: .5rem;
+      overflow: hidden;
+      box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+      transition: transform 0.3s ease; /* Adicione uma transição suave */
+      cursor: pointer; /* Mude o cursor para indicar que os itens são clicáveis */
+
+      &:hover{
+          transform: scale(1.05); /* Aumente ligeiramente o tamanho ao passar o mouse */
+      }
+  }
 }
 
 /* ===== CONTACT =====*/

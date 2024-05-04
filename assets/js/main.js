@@ -55,3 +55,12 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+
+/*==================== SCROLL WORK SECTION ====================*/
+const workSection = document.querySelector('.work');
+
+workSection.addEventListener('scroll', () => {
+    // Adicione suas ações de rolagem aqui
+    // Por exemplo, você pode verificar a posição da rolagem e fazer algo com base nela
+    // Ou você pode verificar a altura do conteúdo e decidir se deve ou não exibir a barra de rolagem
+});
