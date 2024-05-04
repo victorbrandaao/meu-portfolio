@@ -1,4 +1,4 @@
-Claro! Vamos tornar o README mais intuitivo e convidativo:
+
 
 ---
 
