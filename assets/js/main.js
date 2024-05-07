@@ -64,3 +64,4 @@ workSection.addEventListener('scroll', () => {
     // Por exemplo, você pode verificar a posição da rolagem e fazer algo com base nela
     // Ou você pode verificar a altura do conteúdo e decidir se deve ou não exibir a barra de rolagem
 });
+

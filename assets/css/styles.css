@@ -324,7 +324,17 @@ img {
           transform: scale(1.05); /* Aumente ligeiramente o tamanho ao passar o mouse */
       }
   }
+  &__title {
+    margin-top: 1rem; /* Adicione um espaçamento superior ao título */
+    font-size: 1.1rem; /* Ajuste o tamanho do título */
+    color: var(--first-color); /* Use a cor principal para o título */
+    transition: color 0.3s ease; /* Adicione uma transição suave para a cor */
+  }
+  &__title:hover {
+    color: var(--first-color-light); /* Altere a cor do título ao passar o mouse */
+  }
 }
+
 
 /* ===== CONTACT =====*/
 .contact__input {
